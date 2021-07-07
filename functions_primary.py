@@ -1,5 +1,5 @@
-# author:
-# date:
+# author:Samaiya Howard
+# date: 7/7/2021
 
 
 # --------------- Section 1 --------------- #
@@ -25,7 +25,16 @@
 # 1 is done for you.
 
 print('The absolute value of -15 is:', abs(-15))
-
+hexa = hex(21)
+print('The hexadecimal of 21 is: ', hexa)
+print(id(hexa))
+print(pow(2,5))
+print(round(3.75123))
+first_length = len('Samaiya')
+second_length = len('Howard')
+final_length = first_length + second_length
+print(final_length)
+print()
 
 # --------------- Section 2 --------------- #
 
@@ -43,8 +52,20 @@ print('The absolute value of -15 is:', abs(-15))
 #   1 - Call each function once.
 #
 # WRITE CODE BELOW
-
-
+def print_name():
+    print('Samaiya Howard')
+print_name()
+def likeable_animals():
+    print('horses')
+    print('dogs')
+    print('zebras')
+likeable_animals()
+def odd_num():
+    print('7')
+    print('45')
+    print('99')
+odd_num()
+print()
 # 2 | Function Definitions with Parameters
 #
 # Relevant Documentation:
@@ -71,3 +92,20 @@ print('The absolute value of -15 is:', abs(-15))
 #   2 - For the 3rd function, save the return value to a variable and print it.
 #
 # WRITE CODE BELOW
+def cube_of_num(number):
+    print(number**3)
+
+cube_of_num(56)
+
+# So here you want to print the result of a + b + c
+def sums_of_num(a,b,c):
+    print(a + b + c)
+
+sums_of_num(24,72,36)
+
+
+def string_duplicated(String):
+    return String*5
+
+print(string_duplicated('Hello '))
+

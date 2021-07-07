@@ -2,40 +2,40 @@ Name:
 Date:
 
 1 - What is the return value of the len() function?
-
+An integer
 
 
 2 - What is the return value of the print() function?
+The string or the information that was stored
 
 
-
-3 - Can a function be used in an operation or expression?
-
+3 - Can a function be used in an operation or expression? 
+Yes
 
 
 4 - Are functions name case-sensitive?
-
+Yes
 
 
 5 - What are the 3 rules behind good names for variables and functions?
-
+Must start with a letter or an underscore, You must use A-Z, a-z,0-9, and _ characters, and It can not be a keyword.
 
 
 6 - What is the keyword used to define a function?
-
+def
 
 
 7 - What is name of the values used in a function call?
-
+parameters
 
 
 8 - What is the name of the values used in a function definition?
-
+Function calls
 
 
 9 - Are parameters variables?
-
+Yes
 
 10 - How do you return a value?
-
+You use the return function.
 

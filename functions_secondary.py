@@ -28,6 +28,16 @@
 #   10° celsius is 50° fahrenheit
 #
 # WRITE CODE BELOW
+def fahrenheit_to_celcius(f):
+
+    c = (f - 32) * (5/9)
+
+print(fahrenheit_to_celcius(34))
+
+def celsius_to_fahrenheit(cel):
+    fer = (cel + 32) * (2/9)
+    
+print(celsius_to_fahrenheit(6))
 
 
 # 2 | Celsius to Kelvin
