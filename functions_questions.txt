@@ -1,5 +1,5 @@
-Name:
-Date:
+Name: Samaiya Howard
+Date: july 7, 2021
 
 1 - What is the return value of the len() function?
 An integer
